@@ -1,0 +1,12 @@
+.page-link{
+    text-align: center;
+}
+
+.pagination li {
+    font-size: 1.29em;
+    margin: 20px;
+}
+
+.pagination li a{
+    color: orange;
+}

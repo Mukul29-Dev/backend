@@ -1,0 +1,31 @@
+.active{
+    padding-bottom: 20px!important;
+}
+
+.nav-pills .nav-link{
+    color: goldenrod !important;
+}
+
+.nav-pills .nav-link.active{
+    color: white!important;
+    background-color: orange!important;
+}
+
+.user_login{
+    margin: 50px 50px!important;
+    color: goldenrod !important;
+}
+
+.User {
+    margin-top:60px!important;
+}
+
+.user_login_btn {
+     padding: 5px;
+     border-radius: 10px;
+}
+
+.user_login_btn:hover{
+    background-color:orange;
+    color: white;
+}
