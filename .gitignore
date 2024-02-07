@@ -2,6 +2,7 @@
 
 # dependencies
 node_modules
+// eslint-disable-next-line
 /.pnp
 .pnp.js
 

@@ -1,53 +1,53 @@
 // {
 //     "Workout": [
-//       {
-//         "id": 1,
-//         "img": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Incline-Barbell-Bench-Press.gif",
-//         "title": "INCLINE BARBELL BENCH PRESS",
-//         "description": "Barbell, Bench, Full Gym",
-//          "category": "chest"
-//       },
-//       {
-//         "id": 2,
-//         "img": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Dumbbell-Fly.gif",
-//         "title": "DUMBBELL FLY",
-//         "description": "Barbell, Bench, Full Gym"
-//       },
-//       {
-//         "id": 3,
-//         "img": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Dumbbell-Press-1.gif",
-//         "title": "DUMBBELL BENCH PRESS",
-//         "description": "Barbell, Bench, Full Gym"
-//       },
-//       {
-//         "id": 4,
-//         "img": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Cable-Crossover.gif",
-//         "title": "CABLE CROSSOVER",
-//         "description": "Cable, Full Gym"
-//       },
-//       {
-//         "id": 5,
-//         "img": "https://fitnessprogramer.com/wp-content/uploads/2021/12/One-Arm-Cable-Chest-Press.gif",
-//         "title": "ONE-ARM CABLE CHEST PRESS",
-//         "description": "Cable, Full Gym"
-//       },
-//       {
-//         "id": 6,
-//         "img": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Dumbbell-Fly.gif",
-//         "title": "DUMBBELL FLY",
-//         "description": "Barbell, Bench, Full Gym"
-//       },
-//       {
-//         "id": 7,
-//         "img": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Dumbbell-Press-1.gif",
-//         "title": "DUMBBELL BENCH PRESS",
-//         "description": "Barbell, Bench, Full Gym"
-//       },
-//       {
-//         "id": 8,
-//         "img": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Cable-Crossover.gif",
-//         "title": "CABLE CROSSOVER",
-//         "description": "Cable, Full Gym"
-//       }      
+//         {
+//             "id": 1,
+//             "img": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Incline-Barbell-Bench-Press.gif",
+//             "title": "INCLINE BARBELL BENCH PRESS",
+//             "description": "Barbell, Bench, Full Gym",
+//             "category": "chest"
+//         },
+//         {
+//             "id": 2,
+//             "img": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Dumbbell-Fly.gif",
+//             "title": "DUMBBELL FLY",
+//             "description": "Barbell, Bench, Full Gym"
+//         },
+//         {
+//             "id": 3,
+//             "img": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Dumbbell-Press-1.gif",
+//             "title": "DUMBBELL BENCH PRESS",
+//             "description": "Barbell, Bench, Full Gym"
+//         },
+//         {
+//             "id": 4,
+//             "img": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Cable-Crossover.gif",
+//             "title": "CABLE CROSSOVER",
+//             "description": "Cable, Full Gym"
+//         },
+//         {
+//             "id": 5,
+//             "img": "https://fitnessprogramer.com/wp-content/uploads/2021/12/One-Arm-Cable-Chest-Press.gif",
+//             "title": "ONE-ARM CABLE CHEST PRESS",
+//             "description": "Cable, Full Gym"
+//         },
+//         {
+//             "id": 6,
+//             "img": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Dumbbell-Fly.gif",
+//             "title": "DUMBBELL FLY",
+//             "description": "Barbell, Bench, Full Gym"
+//         },
+//         {
+//             "id": 7,
+//             "img": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Dumbbell-Press-1.gif",
+//             "title": "DUMBBELL BENCH PRESS",
+//             "description": "Barbell, Bench, Full Gym"
+//         },
+//         {
+//             "id": 8,
+//             "img": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Cable-Crossover.gif",
+//             "title": "CABLE CROSSOVER",
+//             "description": "Cable, Full Gym"
+//         }
 //     ]
-//   }
+// }
