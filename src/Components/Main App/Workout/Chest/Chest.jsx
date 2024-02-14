@@ -16,8 +16,8 @@ export default function Chest() {
   useEffect(() => {
     const fetchWorkout = async () => {
       try {
-        const response = await axios.get("http://localhost:8000/Workout");
-        setWorkoutData(response.data);
+        const response = await axios.get("http://localhost:5000/Workout");
+        setWorkoutData(response.data[0].Workout)
         console.log(response.data);
       } catch (error) {
         console.error('Error fetching workout data:', error);
