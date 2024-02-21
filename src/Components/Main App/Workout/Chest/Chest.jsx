@@ -13,12 +13,15 @@ export default function Chest() {
 
   const [ workoutData, setWorkoutData] = useState([]);
 
+  const [currentPage, setCurrentPage] = useState(1);
+
+  const itemsPerPage = 8; 
+
   useEffect(() => {
     const fetchWorkout = async () => {
       try {
         const response = await axios.get("http://localhost:5000/Workout");
-        setWorkoutData(response.data[0].Workout)
-        console.log(response.data);
+        setWorkoutData(response.data)
       } catch (error) {
         console.error('Error fetching workout data:', error);
       }
@@ -27,12 +30,22 @@ export default function Chest() {
     fetchWorkout();
   }, []);
 
+  const startIndex = (currentPage - 1) * itemsPerPage;
+  const endIndex = startIndex + itemsPerPage;
+
+  const currentPageItems = workoutData.slice(startIndex, endIndex);
+
+
+  const handlePageChange = pageNumber => {
+    setCurrentPage(pageNumber);
+  };
+
   return (
     <>
     <div>
       <Row className="text-center mt-5">
       {
-        workoutData.map((workoutItem) => (
+        workoutData.slice(startIndex, endIndex).map((workoutItem) => (
           <Col md={3} className="mt-3" key = {workoutItem.id}>
             <Image src={workoutItem.img} roundedCircle style={{height:"250px"}}/>
             <div className="mx-auto">
@@ -48,6 +61,16 @@ export default function Chest() {
       </Row>
       <Row className="text-center mx-auto">
       <Col xs="auto" className="text-center mx-auto mt-3">
+        <Pagination
+              activePage={currentPage}
+              itemsCountPerPage={itemsPerPage}
+              totalItemsCount={workoutData.length}
+              pageRangeDisplayed={5}
+              onChange={handlePageChange}
+              itemClass="page-item"
+              linkClass="page-link"
+              innerClass="pagination"
+            />
       </Col>
       </Row>
   </div>

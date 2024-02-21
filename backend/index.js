@@ -42,8 +42,10 @@ app.listen(port, () => {
 
 app.get('/workout', async (req, res) => {
   try {
+    await mongoDB();
     const data = await getWorkoutData();
     res.json(data);
+    console.log(data)
   } catch (error) {
     console.error('Error fetching data:', error.message);
     res.status(500).send('Internal Server Error');
