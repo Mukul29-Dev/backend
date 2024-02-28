@@ -15,7 +15,7 @@ import Col from 'react-bootstrap/Col'
 export default function Sidebar() {
   return (
     <>
-    <Row>
+    <Row className="sidebar">
     <Col>
     <Nav variant="pills" defaultActiveKey="/">
         <div className="mx-5" style={{color:"orange", padding:"52px 0px"}}>

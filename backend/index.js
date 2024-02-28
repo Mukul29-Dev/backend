@@ -44,8 +44,17 @@ app.get('/workout', async (req, res) => {
   try {
     await mongoDB();
     const data = await getWorkoutData();
-    res.json(data);
-    console.log(data)
+
+    const page = req.query.page;
+    const limit = req.query.limit;
+    const total = data.length;
+
+    startIndex = parseInt(page - 1) * limit;
+    lastIndex = parseInt(page) * limit;
+
+    const dataResult = data.slice(startIndex, lastIndex);
+
+    res.json({ data: dataResult, total: total });
   } catch (error) {
     console.error('Error fetching data:', error.message);
     res.status(500).send('Internal Server Error');
